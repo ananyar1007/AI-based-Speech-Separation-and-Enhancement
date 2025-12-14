@@ -13,7 +13,13 @@ Hearing impairment makes it difficult to understand speech in noisy or crowded e
 
 Using a modified **Conv-TasNet** architecture, we demonstrate a unified model that improves signal quality in the presence of both speaker interference and noise, and runs in real time on a laptop. The training code is adapted from:  
 https://github.com/tky823/DNN-based_source_separation/tree/main
+<p align="center">
+  <img width="1001" height="291" src="https://github.com/user-attachments/assets/7aaf1c3d-72ce-489b-a6bc-e9d7ce321ed8" alt="Example input and output of the model">
+</p>
 
+<p align="center">
+  <em>Example input and output of the model</em>
+</p>
 
 ## Motivation
 This project was inspired by real-world challenges faced by individuals with hearing loss, including our grandmother, who struggles to isolate voices in noisy environments despite using hearing aids. Existing solutions typically address either speaker separation or noise suppression, but not both together in real time.
@@ -69,6 +75,7 @@ Code for the realtime demo is found in the realtime demo folder.
 
 ## Results
 Performance was evaluated using **Scale-Invariant Signal-to-Distortion Ratio (SI-SDR)**.
+
 
 - **~3 dB improvement** for interfering speakers  
 - **~6.8–7 dB improvement** for background noise  
