@@ -70,7 +70,7 @@ Most speech separation models are non-causal and rely on future audio samples. T
 - Converted the model to a **causal, streaming architecture**
 - Processed audio in **fixed-size chunks** while maintaining internal state
 - Built a real-time demo using the `sounddevice` Python library for microphone and speaker I/O
-Code for the realtime demo is found in the realtime demo folder.
+- Code for the realtime demo is found in the realtime demo folder.
 ---
 
 ## Results
